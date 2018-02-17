@@ -29,7 +29,4 @@ Usage
     # 2.0.2
     template = env.from_string("{{ django_version.micro }}")
 
-    # (2, 0, 2, 'final', 0)
-    template = env.from_string("{{ django_version.tuple }}")
-
     template.render()
