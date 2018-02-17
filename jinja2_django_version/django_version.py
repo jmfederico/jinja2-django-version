@@ -7,10 +7,10 @@ from jinja2.ext import Extension
 class DjangoVersion():
     """An object that contains django version information."""
 
-    tuple = django.VERSION
-    major = '{}'.format(tuple[0])
-    minor = '{}.{}'.format(tuple[0], tuple[1])
-    micro = '{}.{}.{}'.format(tuple[0], tuple[1], tuple[2])
+    _version = django.VERSION
+    major = '{}'.format(_version[0])
+    minor = '{}.{}'.format(_version[0], _version[1])
+    micro = '{}.{}.{}'.format(_version[0], _version[1], _version[2])
 
     def __str__(self):
         """Return Django version up to minor."""
