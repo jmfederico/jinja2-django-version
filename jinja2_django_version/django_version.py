@@ -22,6 +22,6 @@ class DjangoVersionExtension(Extension):
 
     def __init__(self, environment):
         """Extend environment by adding globals."""
-        super().__init__(environment)
+        super(DjangoVersionExtension, self).__init__(environment)
 
         environment.globals['django_version'] = DjangoVersion()
