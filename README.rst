@@ -2,11 +2,11 @@
 Jinja2 Django Version
 =====================
 
-.. image:: https://badge.fury.io/py/jinja2-python-version.svg
+.. image:: https://badge.fury.io/py/jinja2-django-version.svg
     :target: https://badge.fury.io/py/jinja2-django-version
 
-.. image:: https://travis-ci.org/jmfederico/jinja2-python-version.svg?branch=master
-    :target: https://travis-ci.org/jmfederico/jinja2-django-version
+.. image:: https://github.com/jmfederico/jinja2-django-version/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/jmfederico/jinja2-django-version/actions/workflows/tests.yml
 
 A Jinja extension that creates a global variable with Django version
 information for your Jinja2 templates:
